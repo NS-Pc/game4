@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Full Map-->
+    <div class="map">
+        <!--Loading Page-->
+        <div id="loading">
+            <h1>2D Game</h1>
+            <div id="out"><div id="in"></div></div>
+        </div>
+        <!--Play Game Box-->
+        <div id="playbox">
+            <div id="back1"></div>
+            <div id="ground1"></div>
+            <button id="play">Play</button>
+        </div>
+        <!--Main Box-->
+        <div id="main">
+            <!--Ground-->
+            <div id="ground"></div>
+            <!--Background-->
+            <div id="background"></div>
+            <!--Scr-->
+            <div id="scrbox">0</div>
+            <!--Player-->
+            <div id="player"></div>
+            <!--anime-->
+            <div id="anime"></div>
+            <!--Controll-->
+            <button id="jump">▲</button>
+        </div>
+        <!--Game Over-->
+        <div id="gameover">
+            <h1>GameOver</h1>
+            <div id="scr">Scr : <samp id="Scr">0</samp></div>
+            <div id="home">Reset</div>
+        </div>
+    </div>
+
+    <!--Script-->
+    <script src="script.js"></script>
+</body>
+</html>
